@@ -66,7 +66,7 @@ local success, errorMsg = pcall(function ()
 		player.Name = "<?php echo $username ?>"
 		player.userId = <?php echo $userId ?> 
 		player:SetSuperSafeChat(false)
-		player.CharacterAppearance = "http://www.fleian.xyz/asset/BodyColors.ashx?userId=<?php echo $avatar ?>"
+		player.CharacterAppearance = "<?php echo $avatar ?>"
 		if game.GuiRoot and game.GuiRoot.MainMenu then
 			game.GuiRoot.MainMenu["Tools"]:remove() game.GuiRoot.MainMenu["Insert"]:remove()
 		end
