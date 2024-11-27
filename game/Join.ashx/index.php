@@ -10,6 +10,10 @@ local Visit = game:service("Visit")
 local Players = game:service("Players")
 local NetworkClient = game:service("NetworkClient")
 
+if not NetworkClient then
+	NetworkClient = Instance.new("NetworkClient")
+end
+
 local function onConnectionRejected()
 	game:SetMessage("This game is not available. Please try another")
 end
