@@ -1,5 +1,5 @@
 # Description
-Couscous is a webserver files pack dedicated to making 2006L-2010L functional with these files.
+Couscous is a website source code that's focused on making 2006L-2010L online features work.
 
 You upload them to a webserver, then patch your client.
 # Editing so it works with your domain
